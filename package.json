@@ -1,0 +1,49 @@
+{
+  "name": "gh-description",
+  "version": "0.1.14",
+  "description": "Set and get a GitHub repository description",
+  "license": "MIT",
+  "repository": "RichardLitt/gh-description",
+  "author": {
+    "name": "Richard Littauer",
+    "email": "richard.littauer@gmail.com",
+    "url": "http://burntfen.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "standard && ava"
+  },
+  "keywords": [
+    "cli-app",
+    "cli",
+    "github",
+    "git",
+    "description",
+    "descriptions",
+    "repo",
+    "repository",
+    "set",
+    "get",
+    "desc"
+  ],
+  "dependencies": {
+    "ghauth": "^3.2.1",
+    "gitconfiglocal": "^2.0.1",
+    "is-array": "^1.0.1",
+    "meow": "^3.7.0",
+    "octokat": "^0.9.0",
+    "pify": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2",
+    "ava": "^0.21.0"
+  },
+  "coordinates": [
+    45.5191959,
+    -73.5788979
+  ]
+}
